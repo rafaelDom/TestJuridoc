@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "jsx": "react",
+    "jsxFactory": "DOM.create",
+    "strict": true,
+    "experimentalDecorators": true,
+    "suppressExcessPropertyErrors": true,
+    "removeComments": true,
+    "outDir": "release"
+  },
+  "include": ["./source/**/*"]
+}
